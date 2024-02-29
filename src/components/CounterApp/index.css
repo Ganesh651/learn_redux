@@ -1,0 +1,42 @@
+.counter-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.counter-container {
+  padding: 10px;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+}
+
+.count {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.plus-button {
+  background-color: red;
+  border: 0;
+  color: #fff;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.minus-button {
+  background-color: green;
+  border: 0;
+  color: #fff;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
